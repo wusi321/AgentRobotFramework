@@ -81,6 +81,22 @@ python verify_installation.py
 - **V0.5** - 实时控制增强
 - **V1.0** - 正式版
 
+## Git 管理
+
+### 快速提交代码
+
+```bash
+./git.sh
+```
+
+### 高级 Git 管理
+
+```bash
+./git_advanced.sh
+```
+
+详见 [GIT_GUIDE.md](GIT_GUIDE.md)
+
 ## 项目结构
 
 详见 [框架art.md](框架art.md)
