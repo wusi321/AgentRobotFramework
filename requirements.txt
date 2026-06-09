@@ -1,0 +1,19 @@
+# Core dependencies
+pyyaml>=6.0
+loguru>=0.7.0
+pyserial>=3.5
+
+# Communication
+python-can>=4.2.0
+pyusb>=1.2.1
+
+# Async support
+asyncio-mqtt>=0.16.0
+
+# Data processing
+numpy>=1.24.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

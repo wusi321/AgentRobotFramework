@@ -1,0 +1,28 @@
+# ARF Permission Configuration
+
+motor:
+  # 最大速度
+  max_speed: 0.8
+  
+  # 最大扭矩
+  max_torque: 1.0
+
+servo:
+  # 最大角度
+  max_angle: 180
+  
+  # 最小角度
+  min_angle: 0
+  
+  # 最大速度
+  max_speed: 1.0
+
+system:
+  # 允许关机
+  allow_shutdown: false
+  
+  # 允许重启
+  allow_restart: true
+  
+  # 允许固件更新
+  allow_firmware_update: false

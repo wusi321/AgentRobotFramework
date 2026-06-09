@@ -1,0 +1,31 @@
+# ARF STM32 Configuration
+
+transport:
+  # 传输类型: uart, can, usb, rs485
+  type: uart
+  
+  # 串口设备
+  device: /dev/ttyACM0
+  
+  # 波特率
+  baudrate: 115200
+
+protocol:
+  # 协议版本
+  version: 1
+  
+  # 最大重试次数
+  max_retry: 3
+  
+  # ACK 超时（秒）
+  ack_timeout: 2.0
+
+heartbeat:
+  # 启用心跳
+  enable: true
+  
+  # 心跳间隔（秒）
+  interval: 0.5
+  
+  # 超时时间（毫秒）
+  timeout_ms: 1000

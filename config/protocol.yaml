@@ -1,0 +1,24 @@
+# ARF Protocol Configuration
+
+protocol:
+  # 协议版本
+  version: 1
+  
+  # CRC 类型
+  crc: crc16
+  
+  # 帧头
+  frame_head: 0xAA55
+  
+  # 最大负载大小（字节）
+  max_payload_size: 256
+  
+  # 数据包超时（秒）
+  packet_timeout: 2.0
+
+command:
+  # 命令重试次数
+  max_retry: 3
+  
+  # 命令超时（秒）
+  command_timeout: 1.0

@@ -1,0 +1,39 @@
+# Walk Skill Configuration
+
+name: walk
+description: Move robot forward, backward, or turn
+version: "1.0.0"
+
+permission:
+  - motor
+  - navigation
+
+input:
+  speed:
+    type: float
+    range: [-1.0, 1.0]
+    default: 0.5
+    description: Movement speed
+  
+  direction:
+    type: string
+    options: [forward, backward, left, right]
+    default: forward
+    description: Movement direction
+  
+  duration:
+    type: float
+    range: [0.0, 60.0]
+    default: 5.0
+    description: Duration in seconds
+
+output:
+  success:
+    type: bool
+    description: Whether the skill executed successfully
+  
+  distance:
+    type: float
+    description: Distance traveled in meters
+
+timeout_ms: 30000

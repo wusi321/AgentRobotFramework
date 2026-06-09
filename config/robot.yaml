@@ -1,0 +1,28 @@
+# ARF Robot Configuration
+
+robot:
+  name: robot_dog
+  type: quadruped
+  version: "0.1.0"
+  
+  # 紧急停止
+  emergency_stop: true
+  
+  # 看门狗超时（毫秒）
+  watchdog_timeout_ms: 1000
+  
+  # 控制频率（Hz）
+  control_frequency_hz: 100
+  
+  # 技能超时（毫秒）
+  skill_timeout_ms: 5000
+
+system:
+  # 自动重连
+  auto_reconnect: true
+  
+  # 重连间隔（毫秒）
+  reconnect_interval_ms: 1000
+  
+  # 日志级别
+  log_level: INFO
